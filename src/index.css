@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import "tailwindcss";
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+.custom-bg {
+  background-image: url("assets/bg.jpg");
+  background-position: bottom center;
+}
+
+.ant-modal-content {
+  padding: 0 !important;
+}
+
+/* WebKit (Chrome, Safari, Edge) uchun */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox uchun */
+input[type="number"] {
+    -moz-appearance: textfield;
+}
